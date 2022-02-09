@@ -20,6 +20,7 @@ A collection of security hardening guides, best practices, checklists, benchmark
     - [IPv6](#ipv6)
     - [Firewalls](#firewalls)
   - [Virtualization - VMware](#virtualization---vmware)
+  - [Containers - Docker - Kubernetes](#containers---docker---kubernetes)
   - [Services](#services)
     - [SSH](#ssh)
     - [TLS/SSL](#tlsssl)
@@ -175,6 +176,17 @@ See also [Active Directory](#active-directory) and [ADFS](#adfs) below.
 - [ANSSI - Problématiques de sécurité associées à la virtualisation des systèmes d’information](https://www.ssi.gouv.fr/administration/guide/problematiques-de-securite-associees-a-la-virtualisation-des-systemes-dinformation/) (2013), in French
 - [VMware - Protecting vSphere From Specialized Malware](https://core.vmware.com/vsphere-esxi-mandiant-malware-persistence) (2022) - see also [Mandiant - Bad VIB(E)s Part Two: Detection and Hardening within ESXi Hypervisors](https://www.mandiant.com/resources/blog/esxi-hypervisors-detection-hardening)
 
+## Containers - Docker - Kubernetes
+
+- [How To Harden Your Docker Containers](https://www.secjuice.com/how-to-harden-docker-containers/)
+- [CIS Docker Benchmarks](https://www.cisecurity.org/benchmark/docker/) - registration required
+- [NIST SP 800-190 - Application Container Security Guide](https://www.nist.gov/publications/application-container-security-guide)
+- [A Practical Introduction to Container Security](https://cloudberry.engineering/article/practical-introduction-container-security/)
+- [ANSSI - Recommandations de sécurité relatives au déploiement de conteneurs Docker](https://www.ssi.gouv.fr/guide/recommandations-de-securite-relatives-au-deploiement-de-conteneurs-docker/) (2020), in French
+- [Kubernetes Security Checklist](https://kubernetes.io/docs/concepts/security/security-checklist/)
+- [Kubernetes Role Based Access Control Good Practices](https://kubernetes.io/docs/concepts/security/rbac-good-practices/)
+- [Kubernetes Multi-tenancy](https://kubernetes.io/docs/concepts/security/multi-tenancy/)
+- [Kubernetes blog - A Closer Look at NSA/CISA Kubernetes Hardening Guidance](https://kubernetes.io/blog/2021/10/05/nsa-cisa-kubernetes-hardening-guidance/#building-secure-container-images)
 
 ## Services
 
